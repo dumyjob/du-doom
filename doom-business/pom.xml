@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>doom-parent</artifactId>
+        <groupId>com.du.doom</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../doom-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>doom-business</artifactId>
+    <packaging>war</packaging>
+
+    <name>doom-business Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <build>
+        <finalName>doom-business</finalName>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.du.doom</groupId>
+            <artifactId>doom-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
